@@ -45,8 +45,12 @@ public class Compra extends Carrinho{
 	
 	@ManyToOne
 	@JoinColumn(name = "idCarrinho")
+<<<<<<< HEAD
 	
 	private Carrinho listaProdutos;
+=======
+	public Carrinho listaProdutos;
+>>>>>>> 6f519cb0cdd322a052a4458061588de84489c223
 	
 	
 	public String getEmail() {

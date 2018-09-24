@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 
+@Entity
 @Table
 public class Departamento extends Loja {
 	
@@ -20,7 +21,8 @@ public class Departamento extends Loja {
 	}
 	
 	@Override
-	public int hashCode() {final int prime = 31;
+	public int hashCode() {
+		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((nome == null) ? 0 : nome.hashCode());
 		long temp = 0;

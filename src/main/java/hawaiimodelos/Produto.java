@@ -8,6 +8,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+
 @Table
 public class Produto  {
 
@@ -32,8 +33,6 @@ public class Produto  {
 	public Departamento departamento;
 	
 	
-	
-	
 	public Produto(String nome, double valor) {
 		super();
 		this.nome = nome;
@@ -56,6 +55,7 @@ public class Produto  {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -134,9 +134,6 @@ public class Produto  {
 		return true;
 		
 	}
-	
-	
-	
 	
 	
 }

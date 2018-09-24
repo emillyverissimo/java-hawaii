@@ -28,7 +28,7 @@ public class App {
 		departamento.setNome("Esporte");
 		
 		
-		Produto produto = new Produto();
+		Produto produto = new Produto("", 30.0);
 		produto.setNome("Sei lá");
 		produto.setDescricao("oi");
 		produto.setQnt(3);
