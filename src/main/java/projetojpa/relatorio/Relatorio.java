@@ -11,8 +11,9 @@ public class Relatorio {
 	  
 	  public void getRelatorioPrecos (List<Produto> produtos) {
 		  for (Produto produto : produtos) {
-			  if (produto.getValor() > maiorPreco)
+			  if (produto.getValor() > maiorPreco) {
 				  maiorPreco = produto.getValor();
+			  }
 			  if(produto.getValor()< menorPreco) {
 				  menorPreco = produto.getValor();
 			  }
